@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smoked Bacon Games — Indie Game Studio</title>
+  <meta name="description" content="Smoked Bacon Games is an independent game studio cooking up small, crispy, delightfully weird games.">
+
+  <!-- Social share preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://smokedbacongames.com/">
+  <meta property="og:title" content="Smoked Bacon Games">
+  <meta property="og:description" content="An indie game studio cooking up small, crispy, delightfully weird games.">
+  <meta property="og:image" content="https://smokedbacongames.com/assets/logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__brand">
+        <img src="assets/logo.png" alt="" width="40" height="36">
+        <span>Smoked Bacon Games</span>
+      </a>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav__links">
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn--small">Say hi</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <img class="hero__logo" src="assets/logo.png" alt="Smoked Bacon Games logo" width="733" height="657">
+        <div class="hero__text">
+          <h1>Small studio.<br>Crispy games.</h1>
+          <p>We're an independent game studio cooking up bite-sized, delightfully weird games that are made with love (and a little smoke).</p>
+          <div class="hero__cta">
+            <a href="#games" class="btn">See our games</a>
+            <a href="#contact" class="btn btn--ghost">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GAMES -->
+    <section id="games" class="section">
+      <div class="container">
+        <h2 class="section__title">What's on the grill</h2>
+        <p class="section__lead">Our first games are sizzling away. Here's a sneak peek.</p>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card__art card__art--1">🎮</div>
+            <span class="tag">In development</span>
+            <h3>Project Sizzle</h3>
+            <p>Our debut title. A cozy-chaotic adventure that we'll reveal soon.</p>
+          </article>
+          <article class="card">
+            <div class="card__art card__art--2">🕹️</div>
+            <span class="tag tag--muted">Prototype</span>
+            <h3>Untitled Game #2</h3>
+            <p>A small experiment with big ideas. More to share when it's ready.</p>
+          </article>
+          <article class="card">
+            <div class="card__art card__art--3">🥓</div>
+            <span class="tag tag--muted">Coming soon</span>
+            <h3>Your next favorite</h3>
+            <p>Follow along to be first in line when we announce new games.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section--alt">
+      <div class="container about">
+        <div>
+          <h2 class="section__title">About the studio</h2>
+          <p>Smoked Bacon Games is a small indie team that believes games should be fun first. We make games we'd want to play ourselves: charming, a bit silly, and polished until they're crispy.</p>
+          <p>We work in the open, care a lot about our players, and are always happy to chat with fellow developers, publishers and press.</p>
+        </div>
+        <ul class="values">
+          <li><strong>Fun first</strong><span>If it isn't fun, it doesn't ship.</span></li>
+          <li><strong>Small &amp; crafted</strong><span>Tight games with lots of personality.</span></li>
+          <li><strong>Player-loved</strong><span>We build alongside our community.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact">
+        <h2 class="section__title">Come hang out</h2>
+        <p class="section__lead">Press, publishing, collabs, or just want to say hi? We'd love to hear from you.</p>
+        <a class="btn btn--big" href="mailto:hello@smokedbacongames.com">hello@smokedbacongames.com</a>
+        <ul class="socials">
+          <li><a href="#" aria-label="X / Twitter">X</a></li>
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="TikTok">TikTok</a></li>
+          <li><a href="#" aria-label="YouTube">YouTube</a></li>
+          <li><a href="#" aria-label="Discord">Discord</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Smoked Bacon Games. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
