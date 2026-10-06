@@ -17,7 +17,7 @@
   <link rel="icon" type="image/png" href="assets/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -44,7 +44,7 @@
       <div class="container hero__inner">
         <img class="hero__logo" src="assets/logo.png" alt="Smoked Bacon Games logo" width="733" height="657">
         <div class="hero__text">
-          <h1>Small studio.<br>Crispy games.</h1>
+          <h1>Small studio.<br><span>Crispy games.</span></h1>
           <p>We're an independent game studio cooking up bite-sized, delightfully weird games that are made with love (and a little smoke).</p>
           <div class="hero__cta">
             <a href="#games" class="btn">See our games</a>
@@ -57,27 +57,30 @@
     <!-- GAMES -->
     <section id="games" class="section">
       <div class="container">
+        <span class="eyebrow">Our games</span>
         <h2 class="section__title">What's on the grill</h2>
         <p class="section__lead">Our first games are sizzling away. Here's a sneak peek.</p>
 
         <div class="cards">
           <article class="card">
-            <div class="card__art card__art--1">🎮</div>
+            <div class="card__art card__art--1">
+              <img src="assets/kawaii-toy-sort.png" alt="Kawaii Toy Sort: a pile of cute plush toys" width="1197" height="918" loading="lazy">
+            </div>
             <span class="tag">In development</span>
-            <h3>Project Sizzle</h3>
-            <p>Our debut title. A cozy-chaotic adventure that we'll reveal soon.</p>
+            <h3>Kawaii Toy Sort</h3>
+            <p>A cozy sorting game. Tidy up shelves full of adorable toys and find the perfect spot for each one.</p>
           </article>
           <article class="card">
-            <div class="card__art card__art--2">🕹️</div>
+            <div class="card__art card__art--2">🐛</div>
             <span class="tag tag--muted">Prototype</span>
-            <h3>Untitled Game #2</h3>
-            <p>A small experiment with big ideas. More to share when it's ready.</p>
+            <h3>Who Counted the Bugs Wrong</h3>
+            <p>A tower defense game where someone badly miscounted. Hold the line against millions of bugs.</p>
           </article>
           <article class="card">
-            <div class="card__art card__art--3">🥓</div>
-            <span class="tag tag--muted">Coming soon</span>
-            <h3>Your next favorite</h3>
-            <p>Follow along to be first in line when we announce new games.</p>
+            <div class="card__art card__art--3">🔒</div>
+            <span class="tag tag--muted">Unannounced</span>
+            <h3>Top Secret Project</h3>
+            <p>Something new is cooking. Follow along to be first in line when we reveal it.</p>
           </article>
         </div>
       </div>
@@ -87,6 +90,7 @@
     <section id="about" class="section section--alt">
       <div class="container about">
         <div>
+          <span class="eyebrow">Who we are</span>
           <h2 class="section__title">About the studio</h2>
           <p>Smoked Bacon Games is a small indie team that believes games should be fun first. We make games we'd want to play ourselves: charming, a bit silly, and polished until they're crispy.</p>
           <p>We work in the open, care a lot about our players, and are always happy to chat with fellow developers, publishers and press.</p>
@@ -102,15 +106,15 @@
     <!-- CONTACT -->
     <section id="contact" class="section">
       <div class="container contact">
+        <span class="eyebrow">Contact</span>
         <h2 class="section__title">Come hang out</h2>
         <p class="section__lead">Press, publishing, collabs, or just want to say hi? We'd love to hear from you.</p>
         <a class="btn btn--big" href="mailto:hello@smokedbacongames.com">hello@smokedbacongames.com</a>
         <ul class="socials">
-          <li><a href="#" aria-label="X / Twitter">X</a></li>
-          <li><a href="#" aria-label="Instagram">Instagram</a></li>
-          <li><a href="#" aria-label="TikTok">TikTok</a></li>
-          <li><a href="#" aria-label="YouTube">YouTube</a></li>
-          <li><a href="#" aria-label="Discord">Discord</a></li>
+          <li><a href="https://x.com/SmokedBaconGame" target="_blank" rel="noopener" aria-label="X / Twitter">X</a></li>
+          <li><a href="https://www.instagram.com/smokedbacongames/" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a></li>
+          <li><a href="https://www.youtube.com/@SmokedBaconGames" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a></li>
+          <li><a href="https://discord.gg/vYF3GP3ptX" target="_blank" rel="noopener" aria-label="Discord">Discord</a></li>
         </ul>
       </div>
     </section>
